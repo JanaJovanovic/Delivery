@@ -1,0 +1,40 @@
+.container {
+  height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-bottom: 1px solid gray;
+  outline: none;
+
+}
+.admin{
+  color: #AF5825;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.input {
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 0px 10px;
+  
+}
+
+.button {
+  height: 40px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #AF5825;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.error {
+  font-size: 13px;
+  color: red;
+}
